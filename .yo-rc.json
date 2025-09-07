@@ -1,0 +1,33 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "authenticationType": "jwt",
+    "baseName": "myapp",
+    "buildTool": "maven",
+    "cacheProvider": "redis",
+    "clientFramework": "vue",
+    "clientTestFrameworks": [],
+    "clientTheme": "none",
+    "creationTimestamp": 1757240504429,
+    "databaseType": "sql",
+    "devDatabaseType": "mssql",
+    "enableHibernateCache": false,
+    "enableTranslation": true,
+    "entities": [],
+    "feignClient": null,
+    "jhipsterVersion": "8.9.0",
+    "jwtSecretKey": "ZDZiZTdjYTYyZjQ2MWIxMmU0ODg2MzAxOThkNmJhZTM4MTE1NTdiMmJjODYzNzAwMTE0ZGMwNGVhODM0YTI3OGE1ZDM1Y2EzOWNmNDM1NzI2N2NlOTljMDI2ZmRhOGI5OWJiNDliYjc2NmVhODkzNzJlOWY3ZTc3NDI3YzA1NDY=",
+    "languages": ["zh-tw"],
+    "microfrontend": null,
+    "microfrontends": [],
+    "nativeLanguage": "zh-tw",
+    "packageName": "com.example.myapp",
+    "prodDatabaseType": "mssql",
+    "reactive": false,
+    "serverPort": null,
+    "serviceDiscoveryType": null,
+    "syncUserWithIdp": null,
+    "testFrameworks": [],
+    "withAdminUi": false
+  }
+}
