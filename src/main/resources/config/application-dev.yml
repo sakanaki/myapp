@@ -33,7 +33,7 @@ spring:
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
     url: jdbc:sqlserver://host.docker.internal:1433;database=myapp;encrypt=false
-    username: sa
+    username: SA
     password: 1qaz@WSX
     hikari:
       poolName: Hikari
@@ -55,6 +55,12 @@ spring:
     cache-duration: PT1S # 1 second, see the ISO 8601 standard
   thymeleaf:
     cache: false
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.SQLServerDialect
+    hibernate:
+      ddl-auto: none
 
 server:
   port: 8080
