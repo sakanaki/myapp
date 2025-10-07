@@ -32,9 +32,9 @@ spring:
       indent-output: true
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
-    url: jdbc:sqlserver://localhost:1433;database=myapp;encrypt=false
-    username: SA
-    password: yourStrong(!)Password
+    url: jdbc:sqlserver://host.docker.internal:1433;database=myapp;encrypt=false
+    username: sa
+    password: 1qaz@WSX
     hikari:
       poolName: Hikari
       auto-commit: false
@@ -71,7 +71,7 @@ jhipster:
   cache: # Cache configuration
     redis: # Redis configuration
       expiration: 3600 # By default objects stay 1 hour (in seconds) in the cache
-      server: redis://localhost:6379
+      server: redis://host.docker.internal:6379
       cluster: false
       # server: redis://localhost:6379,redis://localhost:16379,redis://localhost:26379
       # cluster: true
